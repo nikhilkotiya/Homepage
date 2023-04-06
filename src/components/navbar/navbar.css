@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.rightchoiceicon{
+    display: flex;
+    width: 380px;
+    /* border: 2px solid; */
+    justify-content: center;
+}
+.rightchoiceicon .logotext{
+    
+        margin: 12.3px 0 10.6px 14.8px;
+        font-family: Poppins;
+        font-size: 29.9px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: left;
+        color: #fff;
+        /* border: 2px solid; */
+        
+
+      
+}
+
+.navbar{
+    height: 100px;
+    /* border: 1px solid red; */
+    
+}
+
+.nav-item, .login-button{
+    
+
+        /* width: 66px; */
+        height: 29px;
+        
+        font-family: Poppins;
+        font-size: 22px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: left;
+        color: #fff;
+        display:inline-block;
+        float: right;
+        margin: 20px;
+        
+      
+
+}
+*{
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.nav-link{
+    text-decoration: none;
+    
+    font-size: 22px;
+    font-weight: 400;
+    
+}
+.login-button{
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+    float: right;
+    
+  border-radius: 4.3px;
+  background-color: #806def;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.18;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}

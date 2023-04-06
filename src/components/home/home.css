@@ -1,0 +1,262 @@
+*{
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(127deg, #433882 -71%, rgba(0, 0, 0, 0.32) 97%);
+
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    /* border: 2px solid red; */
+
+}
+.container1 .text1{
+    width:40%;
+    padding : 10px 0px 0px 48px;
+    /* border: 2px solid peru; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    
+    
+}
+.containerphoto{
+    width:50%;
+
+}
+.containerphoto img{
+    /* margin: 64.1px 109px 154px 88px; */
+  object-fit: contain;
+}
+.containerphoto .photo{
+    width: 100%;
+}
+
+.Smart-Marketing-Smart-Business {
+    /* width: 471px; */
+    
+    
+    padding: 20px 0px ;
+    font-family: Poppins;
+    font-size: 3rem;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.07;
+    letter-spacing: normal;
+    text-align: left;
+    color: #806def;
+    /* border: 2px solid yellow; */
+  }
+  .Smart-Marketing-Smart-Business .text-style-1 {
+    font-weight: normal;
+    color: #fff;
+    width: 100%;
+    
+    /* border: 2px solid; */
+  }
+  .Make-the-right-choice-for-your-online-business {
+    /* width: 406px;
+    height: 82px; */
+    
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    
+    color: #fff;
+    margin: 0px 0px 15px 0px;
+  }
+  .Make-the-right-choice-for-your-online-business .text-style-1 {
+    color: #b4a7fd;
+  }
+  .Rectangle-2294 {
+    width: 300px;
+    padding: 10px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    /* margin: 40.6px 95px 39.7px 150px;
+    padding: 13.9px 36px 13.1px 37px; */
+    border-radius: 8px;
+    background-color: #806def;
+  }
+
+
+  .container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:80%;
+    margin:auto;
+    /* border: 2px solid; */
+    margin-bottom: 5%;
+  }
+  .img1 img, .img2 img, .container2 .text1 ,.container2 .text2{
+    width:100%;
+    object-fit: fill;
+    margin: 70px 0px 10.5px 0;
+  }
+  .container2 .text1 ,.container2 .text2{
+    text-align:center;
+    /* border: 2px solid; */
+  }
+  .Brands-find-RightChoiceAi-essential-for-their-business-growth {
+    width: 783px;
+    height: 38px;
+    margin: 80.7px 0 0 15px;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+  }
+  
+  .Brands-find-RightChoiceAi-essential-for-their-business-growth .text-style-1 {
+    color: #806def;
+  }
+
+  .RightChoiceAis-software-services-will-help-your-businesses-rank-better-and-drive-more-conversion {
+    /* width: 1457px;
+    height: 38px; */
+    /* margin: 118.7px 231px 54.7px 232px; */
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+  }
+  
+  .RightChoiceAis-software-services-will-help-your-businesses-rank-better-and-drive-more-conversion .text-style-1 {
+    color: #8a76ff;
+  }.RightChoiceAis-software-services-will-help-your-businesses-rank-better-and-drive-more-conversion {
+  /* width: 1457px;
+  height: 38px; */
+  /* margin: 118.7px 231px 54.7px 232px; */
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+.RightChoiceAis-software-services-will-help-your-businesses-rank-better-and-drive-more-conversion .text-style-1 {
+  color: #8a76ff;
+}
+
+.aboutus {
+  /* width: 237px;
+  height: 71px; */
+  /* margin: 54.7px 13px 62px 227px; */
+  padding: 10px 34px 10px 35px;
+  border-radius: 7px;
+  background-color: #806def;
+}
+
+.container3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:80%;
+  margin:auto;
+  /* border: 2px solid; */
+  margin-bottom: 5%;
+}
+.container3 .icons{
+  display: flex;
+  flex-direction: row;
+  /* margin: 50px 50px; */
+  margin: 4%;
+}
+.icon{
+margin: 0px 30px ;
+
+}
+.bicon, .micon, .picon, .aicon{
+  height: 180px;
+}
+
+.container3 .icons .text {
+  text-align: center;
+  /* border: 2px solid white; */
+}
+
+.container3 .text1{
+  
+  /* margin: 0 149px 24.5px 93px; */
+  font-family: Poppins;
+  font-size: 2rem;
+  font-weight: 600;
+  
+  /* text-align: left; */
+  color: #806def;
+}
+.container3 .text1 .style{
+  color: #fff;
+}
+.software-that-helps-you-rank-5X-in-local-search {
+  font-family: Poppins;
+  font-size: 52px;
+  font-weight: 600;
+  
+  
+  color: #fff;
+  text-transform: capitalize;
+  text-align: center;
+  /* border: 2px solid; */
+  width:100%;
+  display: inline-block;
+}
+.software-that-helps-you-rank-5X-in-local-search .text-style-1 {
+  color: #806def;
+}
+.software-that-helps-you-rank-5X-in-local-search .text-style-2 {
+  color: #bcb0ff;
+}
+
+.get-the-most-out-of-every-local-search {
+  
+  
+  font-family: Poppins;
+  font-size: 52px;
+  font-weight: 600;
+  
+  
+  color: #fff;
+  text-transform: capitalize;
+  text-align: center;
+  /* border: 2px solid; */
+  width:100%;
+  display: inline-block;
+  
+}
+.get-the-most-out-of-every-local-search .text-style-1 {
+  color: #806def;
+}
+
+.container4 {
+  display: flex;
+  flex-direction: column;
+}
+.container4 .row1, .container4 .row2{
+display: flex;
+flex-direction: row;
+}
