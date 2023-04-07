@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.0a4bd253.css",
-    "main.js": "/static/js/main.acdb8ddb.js",
+    "main.css": "/static/css/main.6f74748d.css",
+    "main.js": "/static/js/main.f626dc43.js",
+    "static/media/Rectangle 2304.png": "/static/media/Rectangle 2304.b9e0dd9936bca13cb237.png",
     "static/media/group1.png": "/static/media/group1.d9f5684b524e2d8dc7f6.png",
+    "static/media/Group 12834.png": "/static/media/Group 12834.bc5c8d29b67d85ee623e.png",
     "static/media/Group 27.png": "/static/media/Group 27.06b29111fe5e0e01bb5d.png",
     "static/media/local-rank-tracker-screenshot (1).png": "/static/media/local-rank-tracker-screenshot (1).fdda40f57bc5b5204574.png",
     "static/media/reputation-builder-SS.png": "/static/media/reputation-builder-SS.dae3794ba5fbabc84fd3.png",
     "static/media/street smrt SS.png": "/static/media/street smrt SS.c6986bd6997d0635b522.png",
     "static/media/Geo grid trakcker SS.png": "/static/media/Geo grid trakcker SS.8aa5f57fd53797294c47.png",
     "index.html": "/index.html",
-    "main.0a4bd253.css.map": "/static/css/main.0a4bd253.css.map",
-    "main.acdb8ddb.js.map": "/static/js/main.acdb8ddb.js.map"
+    "main.6f74748d.css.map": "/static/css/main.6f74748d.css.map",
+    "main.f626dc43.js.map": "/static/js/main.f626dc43.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a4bd253.css",
-    "static/js/main.acdb8ddb.js"
+    "static/css/main.6f74748d.css",
+    "static/js/main.f626dc43.js"
   ]
 }
