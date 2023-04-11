@@ -1,0 +1,735 @@
+*{
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(127deg, #433882 -71%, rgba(0, 0, 0, 0.32) 97%);
+
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    /* font-size: ; */
+  width: 100%;
+    /* border: 2px solid red; */
+    padding:0px 0px 0vw 0px;
+
+}
+.container1 .text1{
+    width:28vw;
+    margin: 7.7vw 4.02vw 0vw 6.25vw;
+    /* border: 2px solid red; */
+    display: flex;
+    
+    flex-direction: column;
+    /* align-items: center; */
+    
+    
+    
+}
+.containerphoto{
+  width:43.3vw;
+  height:31.1vw;
+    /* border: 2px solid ; */
+    margin: 6.3vw 9.3vw 0 2.4vw; 
+    
+    
+
+}
+.containerphoto img{
+    
+  object-fit: contain;
+  margin:auto;
+}
+.containerphoto .photo{
+    width: 100%;
+}
+.space1{
+  margin-bottom:1.7vw ;
+}
+.Make-the-right-choice-for-your-online-business .space{
+  margin: 0px 10px 0px 0px;
+}
+.Smart-Marketing-Smart-Business {
+  /* width: 471px; */
+  /* height:  */
+  width:28vw;
+  /* height: 15vw; */
+  /* border: 2px solid; */
+  font-family: Poppins;
+  font-size: 3.05vw;
+  font-weight: bold;
+  z-index: 1;
+  /* padding: 20px 0px ; */
+  
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.07;
+  letter-spacing: normal;
+  text-align: left;
+  color: #806def;
+  /* border: 2px solid yellow; */
+}
+.Smart-Marketing-Smart-Business .text-style-1 {
+  font-weight: normal;
+  color: #fff;
+  width: 100%;
+  
+  /* border: 2px solid; */
+}
+.Make-the-right-choice-for-your-online-business {
+  /* width: 406px;
+  height: 82px; */
+  
+  font-family: Poppins;
+  font-size: 1.4vw;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  width: 100%;
+  color: #fff;
+  padding: 0px 63px 0px 0px;
+  margin: 0px 0px 40px 0px;
+  /* border: 2px solid ; */
+}
+.Make-the-right-choice-for-your-online-business .text-style-1 {
+  color: #b4a7fd;
+  /* margin: 0px 15px 0px 0px; */
+  font-family: Poppins;
+  
+  font-weight: 500;
+}
+.Rectangle-2294 {
+  width: 22.9vw;
+  
+  margin: 3.4vw 0 0 0;
+  /* padding: 10.1px 20.7px 9.3px 32.3px; */
+  border-radius: 5.8px;
+  box-shadow: -6.5px 5.1px 7.3px 0 rgba(0, 0, 0, 0.23);
+  background-color: #6d57ed;
+  height: 3.7vw;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Poppins;
+  font-size: 1.5vw;
+  font-weight: 600;
+  /* margin: 40.6px 95px 39.7px 150px;*/
+  padding: 0.7vw 1.4vw 0.6vw 2.24vw; 
+  border-radius: 8px;
+  background-color: #806def;
+}
+
+
+.container2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:100%;
+  margin:auto;
+  /* border: 2px solid; */
+  margin-bottom: 62px;
+}
+.img1 img{
+  width:100%;
+  object-fit: fill;
+  margin: 3.6vw 0px 0.5vw 0;
+}
+.img2 img{
+  width: 67.1vw;
+  height:13.4vw;
+  margin: 2.42vw 0.3vw 4.4vw 0vw;
+}
+.trustedby{
+    width:100%;
+    margin: 0vw 0px 0.5vw 0;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 2.8vw;
+line-height: 83px;
+text-align: center;
+
+}
+.style-trustedby{
+    color:#806def;
+}
+.container2 .text1 , .container2 .text2{
+  width:100%;
+  text-align:center;
+  /* border: 2px solid; */
+}
+.container2 .text1
+{
+  margin: 80.7px 0 0 15px;
+}
+.container2 .text2{
+  margin:0px 0px 54px 0px;
+}
+
+.Brands-find-RightChoiceAi-essential-for-their-business-growth {
+  width: 783px;
+  height: 38px;
+  
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+.Brands-find-RightChoiceAi-essential-for-their-business-growth .text-style-1 {
+  color: #806def;
+}
+
+.RightChoiceAis-software-services-will-help-your-businesses-rank-better-and-drive-more-conversion {
+  /* width: 1457px;
+  height: 38px; */
+  /* margin: 118.7px 231px 54.7px 232px; */
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+.RightChoiceAis-software-services-will-help-your-businesses-rank-better-and-drive-more-conversion .text-style-1 {
+  color: #8a76ff;
+}.RightChoiceAis-software-services-will-help-your-businesses-rank-better-and-drive-more-conversion {
+/* width: 1457px;
+height: 38px; */
+/* margin: 118.7px 231px 54.7px 232px; */
+font-family: Poppins;
+font-size: 25px;
+font-weight: 500;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #fff;
+}
+
+.RightChoiceAis-software-services-will-help-your-businesses-rank-better-and-drive-more-conversion .text-style-1 {
+color: #8a76ff;
+}
+
+.aboutus {
+/* width: 237px;
+height: 71px; */
+width: 12.3vw;
+height: 3.6vw;
+/* margin: 0 1px 0 4.02vw; */
+padding: 0.5vw 1.8vw 0.5vw 1.7vw;
+border-radius: 5.2px;
+background-color: #806def;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 1.47vw;
+  font-weight: 600;
+}
+
+.container3{
+display: flex;
+flex-direction: column;
+align-items: center;
+/* width:80%;
+margin:auto;
+/* border: 2px solid; */
+margin-bottom: 4.06vw;
+width: 99vw;
+  height: 100%;
+  position: relative;
+  right:5.4vw;
+  
+  padding: 2.3vw 0 3.2vw 0;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  background-color: #11111c;
+}
+.container3 .icons{
+  width: 100%;
+display: flex;
+flex-direction: row;
+margin: 2.08vw 5.2vw;
+justify-content: space-evenly;
+
+/* border: 2px solid; */
+}
+.icon{
+/* margin: 0px 3.1vw ; */
+display: flex;
+flex-direction: column;
+
+
+}
+.bicon{
+  width: 7.6vw ;
+  height: 5.1vw;
+  margin: auto;
+}
+.aicon{
+  width: 8.8vw ;
+  height: 7.5vw;
+  /* margin:  0 7.7px 22.8px 8px; */
+  margin: auto;
+}
+.micon{
+width: 7.5vw;
+height: 5.6vw;
+margin: auto;
+}
+ .micon, .picon{
+  width: 7.6vw;
+height: 7.5vw;
+margin:auto;
+}
+.businessicon{
+  width: 188px;
+  height:163px;
+  /* margin: auto; */
+}
+.agency{
+  width: 127px;
+  height: 181px;
+}
+.multi-location{
+  width: 146px;
+  height: 168px;
+}
+.bicon{
+  
+}
+
+.container3 .icons .text {
+text-align: center;
+/* border: 2px solid white; */
+font-family: Poppins;
+  font-size: 1.07vw;
+  font-weight: bold;
+}
+
+.container3 .text1{
+
+/* margin: 0 149px 24.5px 93px; */
+font-family: Poppins;
+font-size: 2.7vw;
+font-weight: 600;
+/* font-size: ; */
+
+/* text-align: left; */
+color: #806def;
+}
+.container3 .text1 .style{
+color: #fff;
+}
+.software-that-helps-you-rank-5X-in-local-search {
+font-family: Poppins;
+font-size: 52px;
+font-weight: 600;
+
+
+color: #fff;
+text-transform: capitalize;
+text-align: center;
+/* border: 2px solid; */
+width:100%;
+display: inline-block;
+}
+.software-that-helps-you-rank-5X-in-local-search .text-style-1 {
+color: #806def;
+}
+.software-that-helps-you-rank-5X-in-local-search .text-style-2 {
+color: #bcb0ff;
+}
+.software-that-helps-you-rank-5X-in-local-search{
+font-family: Poppins;
+font-size:2.7vw;
+font-weight: 600;
+text-transform: capitalize;
+text-align: center;
+/* border: 2px solid; */
+color: #fff;
+margin: 0 0.7vw 3% 0px;
+width:100%;
+display: inline-block;
+}
+.software-that-helps-you-rank-5X-in-local-search .text-style-1 {
+color: #806def;
+font-size: 1em;
+
+/* margin: 0 0.28em 0 0; */
+}
+.software-that-helps-you-rank-5X-in-local-search .text-style-3{
+color: #806def;
+font-size: 1em;
+
+margin: 0 0.28em 0 0;
+}
+.software-that-helps-you-rank-5X-in-local-search .text-style-2 {
+color: #bcb0ff;
+font-size: 1em;
+
+margin: 0 0.28em 0 0; 
+}
+.get-the-most-out-of-every-local-search {
+
+
+font-family: Poppins;
+font-size: 52px;
+font-weight: 600;
+
+
+color: #fff;
+text-transform: capitalize;
+text-align: center;
+/* border: 2px solid; */
+width:100%;
+display: inline-block;
+
+}
+.get-the-most-out-of-every-local-search .text-style-1 {
+color: #806def;
+}
+
+.container4 {
+display: flex;
+flex-direction: column;
+width:100%;
+margin-bottom: 5.1vw;
+
+}
+.container4 .text4{
+  /* margin-bottom: 92px; */
+  /* margin-right: 72px; */
+}
+.row1,  .row2{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+margin: 0px 0px 0px 0px;
+/* border: 2px solid; */
+}
+.of-customer-reviews-received-on-average
+{
+font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+}
+.Level-up-your-local-SEO {
+font-family: Poppins;
+font-size: 2.7vw;
+font-weight: 600;
+display: inline-block;
+width: 100%;
+text-align: center;
+
+}
+.Level-up-your-local-SEO .text-style-1 {
+color: #806def;
+}
+
+.container5{
+  width: 100%;
+  height: 100%;
+  /* margin: 1758.1px 0 1087.9px; */
+  /* padding: 38px 198px 70px; */
+  padding: 3.6vw 10.7vw 4.9vw 10.7vw;
+  /* padding: 1.9vw 10.3vw 3.6vw 10.3vw; */
+  /* background-color: #11111c; */
+}
+.container5 .text1{
+  text-align: center;
+  /* border: 2px solid white; */
+}
+.container5 .icons{
+
+/* border:2px solid; */
+
+display: flex;
+flex-direction: row  ;
+flex-wrap: wrap;
+/* border: 2px solid; */
+justify-content:space-between;
+margin-top: 3.8vw;
+
+}
+.container5 .text2{
+  width: 100%;
+  height: 45px;
+  /* margin: 24.2px 366px 72.8px; */
+  font-family: Poppins;
+  font-size: 1.5vw;
+  text-align: center;
+  /* border:2px solid; */
+  /* color:red; */
+  margin-bottom: 4.1vw;
+}
+.container5 .icons .icon{
+  width:7vw;
+  height: 17.2vw;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  
+
+  
+}
+.container5 .icons .icon img{
+  margin: 0px 0px 1.9vw 0px;
+  width:100%;
+}
+.container5 .icons .icon1{
+  /* margin: 0 284px 38px 96px; */
+}
+span.percentage{
+  font-size: 1.77vw;
+  font-weight: 600;
+}
+
+.of-customer-reviews-received-on-average{
+  text-align: center;
+  font-size: 1.04vw;
+  font-weight: 500;
+}
+
+
+
+.container6 {
+  height: 56,6vw;
+  width: 90vw;
+  height: 100%;
+  /* margin: 11.1vw 0 0; */
+  /* margin: 104.6px 0 82px; */
+  padding: 5.6vw 0 5.6vw 7.59vw;
+  /* padding: 7.4vw 6.3vw 7.4vw 5.2vw; */
+  /* border: 2px solid white; */
+  display: flex;
+  flex-direction: row;
+}
+.container6 .image{
+  width:31.7vw;
+  height:29.3vw;
+  margin: auto 5.2vw auto 0px;
+  /* border:2px solid; */
+  /* border: 2px solid; */
+
+}
+.container6 .image img{
+  width: 100%;
+  height: 100%;
+  border: #bcb0ff;
+  object-fit: contain;
+}
+.container6 .forum{
+  width: 36.3vw;
+  height: 100%;
+  flex-grow: 0;
+  /* margin: 0 0 0 107px; */
+  padding: 2.17vw 3.4vw 2.66vw 3.4vw;
+  border-radius: 14.5px;
+  -webkit-backdrop-filter: blur(3.9px);
+  backdrop-filter: blur(3.9px);
+  background-color: rgba(217, 217, 217, 0.14);
+}
+.container6 .nmobile{
+  display: flex;
+  flex-direction: row;
+}
+.Get-quick-access-to-full-product {
+  width: 29.5vw;
+  height: 3.07vw;
+  flex-grow: 0;
+  margin: 0 0.8vw 0.8vw 0;
+  font-family: Poppins;
+  font-size: 1.65vw;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+  display: block;
+}
+.Get-quick-access-to-full-product .text-style-1 {
+  color: #806def;
+  margin: 0px 10px 0px 0px;
+}
+.Your-company-name {
+  width: 13.3vw;
+  height: 1.8vw;
+  flex-grow: 0;
+  margin: 1.3vw 5.8vw  0.5vw 0;
+  font-family: Poppins;
+  /* font-size: 1.2vw; */
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+.Forum-rectange{
+  width: 29.5vw;
+  height: 2.1vw;
+  flex-grow: 0;
+  margin: 0.5vw 0.2vw 2.1vw 0.01vw;
+  border-radius: 4px;
+  border: solid 1.9px #828282;
+  background-color: rgba(217, 217, 217, 0);
+}
+.namefield, .numberfield{
+  width:13.75vw;
+  height:2.1vw;
+  flex-grow: 0;
+  margin: 0.3vw 2.2vw  0 1.9px;
+}
+span.desc{
+  font-size: 1.2vw;
+  font-weight: 500;
+}
+.container6-forum-submit{
+  /* width: 13.4vw;
+  height: 3.92vw;
+  margin: 0.2vw 0 0 23.17vw;
+  padding: 0.8vw 4.3vw 0.8vw 4.0vw; */
+  width: 11.52vw;
+  height: 3.12vw;
+  margin: 1.9vw 0 0 17.9vw;
+  /* padding: 10px 21px 10px; */
+  border-radius: 6px;
+  background-color: #806def;
+  font-size: 1.13vw;
+  font-weight: 600;
+}
+.container7{
+  margin:6.4vw 10px 10px 13vw;
+  display:flex;
+  flex-direction: column;
+}
+.container7 .rightchoiceicon{
+margin-bottom: 28px;
+}
+.container7 .description{
+  width: 41.3vw;
+  height: 100%;
+  flex-grow: 0;
+  margin: 1.4vw 10.2vw 2.4vw 0.1vw;
+  font-family: Poppins;
+  font-size: 1vw;
+  font-weight: normal;
+}
+.temp{
+  display: flex;
+  flex-direction: row;
+
+}
+.alllinks{
+  display: flex;
+  flex-direction: row;
+
+}
+.seosoftware, .free-tools, .seoservice, .company{
+  width:25%;
+}
+.temp .icons{
+/* margin-left:  262px; */
+}
+.fb, .ig, .twitter, .linkedin {
+  margin-right: 36px;
+}
+.line{
+  width: 1411px;
+  height: 1.4px;
+  flex-grow: 0;
+  margin: 2.4vw 0 2.6vw 0.1vw;
+  border: solid 1.4px #9f9f9f;
+}
+@media screen and (max-width: 992px) {
+
+.software-that-helps-you-rank-5X-in-local-search
+{
+font-size: 5.2vw;
+}
+
+
+
+}
+@media screen and (max-width: 480px) 
+{
+    .container1 .text1{
+        width:100%;
+        margin:auto;
+
+    }
+    .containerphoto{
+        display: none;
+    }
+    .Smart-Marketing-Smart-Business {
+            font-size: 16.0vw;
+
+    }
+    .Make-the-right-choice-for-your-online-business {
+        font-size: 5.6vw;
+    }
+    .Rectangle-2294{
+        width:94%;
+        height: 14vw;
+        font-size: 6vw;
+    }
+    .container6{
+        width: 90vw;
+        margin:auto;
+        height:100%;
+    }
+    .container6 .image{
+        display:none;
+    }
+    .container6 .forum{
+        width: 80vw;
+        
+    }
+    .Get-quick-access-to-full-product{
+        width:62vw;
+        font-size: 7.2vw    ;
+    }
+    .Your-company-name{
+        width:53.2vw;
+        font-size: 4.8vw;
+    }
+    .Forum-rectange{
+        width:83.37%;
+        height:31px;
+    }
+   span.desc{
+        font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 5vw;
+    }
+    .temp{
+        display: block;
+    }
+    .container7 .description{
+        font-size: 4vw;
+        width: 100%;;
+    }
+    
+}

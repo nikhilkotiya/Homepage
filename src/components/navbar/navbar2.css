@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.rightchoiceicon{
+    display: flex;
+    
+  margin: 0px 118px 0px 0px;
+    /* border: 2px solid; */
+    
+    
+}
+.rightchoiceicon .logo{
+    width: 61.4px;
+  height: 62.9px;   
+}
+ .logotext{
+    width: 430px;
+  height: 40px;
+        margin: 12.3px 0 10.6px 14.8px;
+        font-family: Poppins;
+        font-size: 29.9px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: left;
+        color: #fff;
+        /* border: 2px solid; */
+        
+
+      
+}
+
+.navbar{
+    /* height: 100px; */
+    /* border: 1px solid red; */
+    padding: 45px 0px 74px 5.4vw;
+    /* border: 2px solid; */
+     display: flex; 
+     
+    /* align-items: center; */
+    
+}
+
+
+.nav-item, .login-button{
+    
+
+        /* width: 66px; */
+        height: 29px;
+        
+        font-family: Poppins;
+        font-size: 22px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: left;
+        color: #891313;
+        display:inline-block;
+        float: right;
+        /* margin-left: 1.7vw; */
+        
+      
+
+}
+
+*{
+    /* background-color: black; */
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.nav-link{
+    text-decoration: none;
+    
+    font-size: 22px;
+    font-weight: 400;
+    
+}
+.login-button{
+    width: 214px;
+  height: 53px;
+  position: relative;
+  bottom:10px;
+  
+  border-radius: 4.3px;
+  background-color: #806def;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+@media screen and (max-width:1375px){
+  .nav-link, .login-button{
+    /* display: block;
+    color:yellow;
+    width:100%; */
+  }
+  .navbar-nav{
+    display:flex;
+  }
+  
+}
