@@ -89,17 +89,17 @@ const Home = () => {
             </div>
             <div className="icons">
                 <div className="businessicon icon ">
-                    <img src={photo4} alt="" className="bicon" />
+                    <div className="icon1temp"><img src={photo4} alt="" className="bicon" /></div>
                     <div className="text">Small or medium business</div>
                 </div>
 
                 <div className="agency icon">
-                    <img src={photo5} alt="" className="aicon" />
+                <div className="icon1temp"><img src={photo5} alt="" className="aicon" /></div>
                     <div className="text"> Enterprise Solution</div>
                 </div>
 
                 <div className="multi-location icon">
-                    <img src={photo6} alt="" className="micon" />
+                <div className="icon1temp"> <img src={photo6} alt="" className="micon" /></div>
                     <div className="text">Public Sector & Landmark</div>
                 </div>
 
@@ -115,7 +115,7 @@ const Home = () => {
             that helps you rank
             <span class="text-style-2"></span>
             <span class="text-style-3">5X</span>
-            in local search
+            
             </span>
          </div>
 
@@ -265,7 +265,7 @@ const Home = () => {
                 </div>
 
                 
-                <button  type = 'submit' className = "container6-forum-submit">Submit</button>
+                <button  type = 'submit' className = "container6-forum-submit">Get free demo</button>
             </div>
             
         </form>

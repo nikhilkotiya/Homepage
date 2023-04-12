@@ -1,7 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800;900&display=swap');
+
+
 *{
     margin:0px;
     box-sizing: border-box;
+    text-transform: capitalize;
 }
+
 body{
     background-image: linear-gradient(127deg, #433882 -71%, rgba(0, 0, 0, 0.32) 97%);
 
@@ -56,8 +62,8 @@ body{
   width:28vw;
   /* height: 15vw; */
   /* border: 2px solid; */
-  font-family: Poppins;
-  font-size: 3.05vw;
+  font-family: 'Poppins', sans-serif;
+  font-size: 3.006vw;
   font-weight: bold;
   z-index: 1;
   /* padding: 20px 0px ; */
@@ -71,11 +77,17 @@ body{
   /* border: 2px solid yellow; */
 }
 .Smart-Marketing-Smart-Business .text-style-1 {
-  font-weight: normal;
+  /* font-weight: normal; */
   color: #fff;
   width: 100%;
+  font-family:  'Poppins', sans-serif;
+  font-weight: 500;
   
   /* border: 2px solid; */
+}
+.Smart-Marketing-Smart-Business .text-style-2{
+  font-family:  'Poppins', sans-serif;
+  font-weight: 500;
 }
 .Make-the-right-choice-for-your-online-business {
   /* width: 406px;
@@ -99,26 +111,29 @@ body{
   /* margin: 0px 15px 0px 0px; */
   font-family: Poppins;
   
-  font-weight: 500;
 }
 .Rectangle-2294 {
-  width: 22.9vw;
-  
+  width: 23.1vw;
+  height: 3.7vw;
+
   margin: 3.4vw 0 0 0;
   /* padding: 10.1px 20.7px 9.3px 32.3px; */
-  border-radius: 5.8px;
-  box-shadow: -6.5px 5.1px 7.3px 0 rgba(0, 0, 0, 0.23);
-  background-color: #6d57ed;
-  height: 3.7vw;
+  
   text-align: center;
   text-transform: uppercase;
   font-family: Poppins;
   font-size: 1.5vw;
   font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
   /* margin: 40.6px 95px 39.7px 150px;*/
   padding: 0.7vw 1.4vw 0.6vw 2.24vw; 
-  border-radius: 8px;
-  background-color: #806def;
+  border-radius: 5.8px;
+  box-shadow: -6.5px 5.1px 7.3px 0 rgba(0, 0, 0, 0.23);
+  background-color: #6d57ed;
+
 }
 
 
@@ -147,7 +162,9 @@ body{
     font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
-font-size: 2.8vw;
+font-size: 2.56vw;
+font-size: 36.9px;
+  font-weight: 600;
 line-height: 83px;
 text-align: center;
 
@@ -229,7 +246,9 @@ height: 71px; */
 width: 12.3vw;
 height: 3.6vw;
 /* margin: 0 1px 0 4.02vw; */
-padding: 0.5vw 1.8vw 0.5vw 1.7vw;
+padding: 7.5px 26.6px 7.6px 25.4px;
+
+padding: 0.5vw min(25.4px,1.8vw) 0.5vw min(26.6px,1.7vw);
 border-radius: 5.2px;
 background-color: #806def;
 text-align: center;
@@ -277,7 +296,7 @@ flex-direction: column;
 .bicon{
   width: 7.6vw ;
   height: 5.1vw;
-  margin: auto;
+  margin: auto auto;
 }
 .aicon{
   width: 8.8vw ;
@@ -296,30 +315,38 @@ height: 7.5vw;
 margin:auto;
 }
 .businessicon{
-  width: 188px;
-  height:163px;
+  width: 13.05vw;
+  /* height:163px; */
   /* margin: auto; */
 }
 .agency{
-  width: 127px;
-  height: 181px;
+  width:13.05vw;
+  /* height:10; */
 }
 .multi-location{
-  width: 146px;
-  height: 168px;
+  width: 13.05vw;
+  /* height: 168px; */
 }
-.bicon{
-  
+.icon1temp{
+width: 13.05vw;
+height: 7.5vw;
+/* padding: auto; */
+display: flex;
+justify-content: center;
 }
 
 .container3 .icons .text {
 text-align: center;
+width: 13.05vw;
+height: 3.4vw;
 /* border: 2px solid white; */
 font-family: Poppins;
   font-size: 1.07vw;
   font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
 .container3 .text1{
 
 /* margin: 0 149px 24.5px 93px; */
@@ -336,7 +363,7 @@ color: #fff;
 }
 .software-that-helps-you-rank-5X-in-local-search {
 font-family: Poppins;
-font-size: 52px;
+font-size: 2.7vw;
 font-weight: 600;
 
 
@@ -683,16 +710,28 @@ font-size: 5.2vw;
         display: none;
     }
     .Smart-Marketing-Smart-Business {
-            font-size: 16.0vw;
+            font-size: 4.5vw ;
+            width:100%;
+            text-align: center;
+
 
     }
-    .Make-the-right-choice-for-your-online-business {
-        font-size: 5.6vw;
+    .Smart-Marketing-Smart-Business .text-style-1
+{
+  font-size: 5.06vw ;
+
+
+}
+    .space1{
+      margin-bottom: 3.75vw ;
     }
+    
     .Rectangle-2294{
-        width:94%;
-        height: 14vw;
-        font-size: 6vw;
+      width: 53.6vw;
+      height: 100%;
+      font-size: 6.11vw;
+      margin: 5.9vw 6.54vw 9.66vw 17.5vw;
+  padding: 1.2vw 2.91vw 1.31vw 2.7vw;
     }
     .container6{
         width: 90vw;
@@ -732,4 +771,7 @@ font-size: 5vw;
         width: 100%;;
     }
     
+}
+button{
+  border-width:0px;
 }

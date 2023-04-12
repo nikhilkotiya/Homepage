@@ -13,8 +13,10 @@ const Card = (props) => {
             {props.text}
         </div>
         <div className="learnmore">
-            <div className="text2">Learn More</div>
+            <div className="text2">Learn More
+            <div className='Line'></div></div>
             {/* <span className='icon'><img src={photo1} alt="" /> </span> */}
+            {/* <div className="line"></div> */}
             
         </div>
     </div>
