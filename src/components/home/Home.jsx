@@ -49,10 +49,10 @@ const Home = () => {
             <div className='text1'>
                     <div class="Smart-Marketing-Smart-Business">
                         <div class="text-style-1">Unleash</div>
-                        Customer Growth.
+                        Customer Growth
                         <div className="space1"></div>
                         <div class="text-style-2">Transform Your</div>
-                        Local Storfront!.
+                        Local Storfront!
                     </div>
                
                 <div class="Rectangle-2294">Get Free Business Score </div>
