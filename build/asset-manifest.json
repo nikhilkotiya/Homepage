@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.04f865ee.css",
-    "main.js": "/static/js/main.cd6141aa.js",
-    "static/media/Rectangle 2304.png": "/static/media/Rectangle 2304.b9e0dd9936bca13cb237.png",
+    "main.css": "/static/css/main.feea5c5a.css",
+    "main.js": "/static/js/main.26c13824.js",
+    "static/media/bg 2304.png": "/static/media/bg 2304.1d7edbfec3211d8f9027.png",
     "static/media/group1.png": "/static/media/group1.d9f5684b524e2d8dc7f6.png",
     "static/media/Group 12834.png": "/static/media/Group 12834.bc5c8d29b67d85ee623e.png",
     "static/media/Group 27.png": "/static/media/Group 27.06b29111fe5e0e01bb5d.png",
@@ -12,11 +12,11 @@
     "static/media/Geo grid trakcker SS.png": "/static/media/Geo grid trakcker SS.8aa5f57fd53797294c47.png",
     "static/media/enterprise icn.png": "/static/media/enterprise icn.612aa765944ff7c6f913.png",
     "index.html": "/index.html",
-    "main.04f865ee.css.map": "/static/css/main.04f865ee.css.map",
-    "main.cd6141aa.js.map": "/static/js/main.cd6141aa.js.map"
+    "main.feea5c5a.css.map": "/static/css/main.feea5c5a.css.map",
+    "main.26c13824.js.map": "/static/js/main.26c13824.js.map"
   },
   "entrypoints": [
-    "static/css/main.04f865ee.css",
-    "static/js/main.cd6141aa.js"
+    "static/css/main.feea5c5a.css",
+    "static/js/main.26c13824.js"
   ]
 }
