@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+ul{
+  padding-inline-start: 0px;
+
+}
+.rightchoiceicon{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-end; */
+    align-items: center;
+  /* margin: 0px 6.14vw 0px 0px; */
+    /* bor  der: 2px solid; */
+    /* position: relative;
+    right: 12.4vw; */
+    width: calc(100vw - 78.54vw);
+    margin: 0 0 0vw 11.6vw
+    
+    
+}
+.mnavbar{
+  display: none;
+}
+.rightchoiceicon .logo{
+    width: 3.2vw;
+  height: 3.2vw;  
+}
+ .logotext{
+    
+  height: 100%;
+        margin: 0.6vw 0 0.5vw 0.77vw;
+        font-family: Poppins;
+        font-size: 1.5vw;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: left;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        /* border: 2px solid; */
+        
+
+      
+}
+
+.navbar{
+  
+     display: flex; 
+     flex-wrap: nowrap; 
+     float:right;
+     width:99vw;
+     /* filter: blur(8px); */
+     z-index: 999;
+     background-color: rgba(0,0,0,0.5) ;
+     /* position: fixed; */
+     position: fixed;
+     top:0px;
+     left:0px;
+     padding-top:2.3vw;
+     padding-bottom: 2.3vw;
+     backdrop-filter: blur(20px);
+    
+}
+.navbar-nav{
+    font-size: 1.25vw;
+    width: 58.54vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    
+      
+}
+
+
+.nav-item, .login-button{
+    
+
+        /* width: 66px; */
+        height: 1.5vw;
+        
+        font-family: Poppins;
+        font-size: 1.18vw;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: left;
+        color: #fff;
+        display:inline-block;
+        border-width: 0px;
+      border-style: outset;
+      border-color: buttonborder;
+      border-image: initial;
+        /* margin: 1.04vw; */
+        
+      
+
+}
+.login-button{
+  text-transform: uppercase;
+}
+.nav-item, .mnavbar{
+    margin-left: 1.7vw;
+  }
+  .login-button{
+    margin-left: 2.7vw;
+  }
+*{
+    /* background-color: black; */
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.nav-link{
+    text-decoration: none;
+    
+    font-size:1em;
+    font-weight: 400;
+    
+}
+.login-button{
+    width: 11.11vw;
+  height: 2.7vw;
+ 
+  
+  border-radius: 4.3px;
+  background-color: #806def;
+  font-family: Poppins;
+  font-size: 0.818em;
+  font-weight: 600;
+  text-align: center;
+}
+@media screen and (max-width: 480px) {
+  .rightchoiceicon{
+    margin-right: 6.94vw;
+  }  
+  .rightchoiceicon .logo{
+      width: 6.37vw;
+      height: 6.38vw;
+
+     
+    }
+    .navbar{
+      padding-top: 9.03vw;
+      /* padding-bottom  */
+    }
+    .logotext{
+        font-size: 3.05vw;
+    }
+    .mnavbar{
+      display: block;
+      font-size: 2.05vw;
+      margin-right: 7.77vw;
+    }
+    .nav-item{
+      display: none;
+    }
+    .login-button{
+      width: 19.6vw;
+  height: 4.91vw;
+  font-size: 2.05vw;
+
+  padding: 1.11vw 1.83vw 0.75vw 2.02vw;
+  border-radius: 0.5vw;
+    }
+    
+    
+}

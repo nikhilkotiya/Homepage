@@ -10,7 +10,7 @@ import NavigationBar from './components/navbar/navbar';
 
 const App = () => {
   return (
-    <div>
+    <div className='maindiv'>
       <NavigationBar />
       <Routes>
                 <Route path="/" element={<Home />} exact />
