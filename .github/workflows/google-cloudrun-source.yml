@@ -24,6 +24,7 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             sudo su
+            cd /home/chooserightai
             sudo git pull origin main &&
             npm run build &&
             sudo rm -r /var/www/html/* &&
