@@ -26,8 +26,8 @@ jobs:
             sudo su
             cd /home/chooserightai/Homepage
             sudo git pull origin main &&
-            rm -r node_modules/
-            rm -r build/
+            sudo rm -r node_modules/
+            sudo rm -r build/
             sudo  npm run build &&
             sudo rm -r /var/www/html/* &&
             sudo cp -r ./Homepage/build/* /var/www/html/ &&
