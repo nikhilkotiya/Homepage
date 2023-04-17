@@ -1,25 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+ul{
+  padding-inline-start: 0px;
+
+}
 .rightchoiceicon{
     display: flex;
-    justify-content: end;
+    flex-direction: row;
+    /* justify-content: flex-end; */
     align-items: center;
   /* margin: 0px 6.14vw 0px 0px; */
     /* bor  der: 2px solid; */
     /* position: relative;
     right: 12.4vw; */
+    width: calc(100vw - 78.54vw);
+    margin: 0 0 0vw 4.6vw
     
     
+    
+}
+.mnavbar{
+  Width: 5.55vw;
+Height: 4.19vw;
+  display: none;
+}
+.mnavbar img{ 
+  width:100%;
+  height:100%;
 }
 .rightchoiceicon .logo{
     width: 3.2vw;
   height: 3.2vw;  
 }
  .logotext{
-    width: calc(100vw - 78.54vw);
+    
   height: 100%;
         margin: 0.6vw 0 0.5vw 0.77vw;
         font-family: Poppins;
-        font-size: 1.8vw;
+        font-size: 1.5vw;
         font-weight: 600;
         font-stretch: normal;
         font-style: normal;
@@ -40,17 +57,27 @@
      display: flex; 
      flex-wrap: nowrap; 
      float:right;
-     width:89vw;
-     
+     width:99vw;
+     /* filter: blur(8px); */
+     z-index: 999;
+     background-color: rgba(0,0,0,0.5) ;
+     /* position: fixed; */
+     position: fixed;
+     top:0px;
+     left:0px;
+     padding-top:2.3vw;
+     padding-bottom: 2.3vw;
+     backdrop-filter: blur(20px);
     
 }
 .navbar-nav{
-    font-size: 1.18vw;
-    width: 78.54vw;
+    font-size: 1.25vw;
+    width: 58.54vw;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    
       
 }
 
@@ -62,7 +89,7 @@
         height: 1.5vw;
         
         font-family: Poppins;
-        font-size: 1em;
+        font-size: 1.18vw;
         font-weight: normal;
         font-stretch: normal;
         font-style: normal;
@@ -80,7 +107,10 @@
       
 
 }
-.nav-item{
+.login-button{
+  text-transform: uppercase;
+}
+.nav-item, .mnavbar{
     margin-left: 1.7vw;
   }
   .login-button{
@@ -103,7 +133,7 @@
     width: 11.11vw;
   height: 2.7vw;
  
-  
+  margin-left: 12.96vw;
   border-radius: 4.3px;
   background-color: #806def;
   font-family: Poppins;
@@ -112,11 +142,41 @@
   text-align: center;
 }
 @media screen and (max-width: 480px) {
-    .rightchoiceicon .logo{
-        width: 100%;
-        height: 13vw;   
+  .rightchoiceicon{
+    margin-right: 6.94vw;
+width:38vw;
+  }  
+  .rightchoiceicon .logo{
+      width:9.154vw;
+      height: 9.09vw;
+
+     
+    }
+    .navbar{
+      padding-top: 9.03vw;
+      /* padding-bottom  */
     }
     .logotext{
-        font-size: 6.25vw
+      font-size: 4.3vw;
     }
+    .mnavbar{
+      display: block;
+      font-size: 2.05vw;
+      margin-right: 7.77vw;
+    }
+    .nav-item{
+      display: none;
+    }
+    .login-button{
+      width: 23.70vw;
+height: 5.92vw;
+
+  
+  font-size: 2.05vw;
+
+  padding: 1.11vw 1.83vw 0.75vw 2.02vw;
+  border-radius: 0.5vw;
+    }
+    
+    
 }

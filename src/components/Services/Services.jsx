@@ -3,7 +3,7 @@ import React from 'react'
 const Services = () => {
   return (
     <div>
-      Services
+      Services will be avilable from next month.
     </div>
   )
 }
